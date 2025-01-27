@@ -400,6 +400,17 @@ img {
     font-family: "Raleway", sans-serif;
     background-color: #2e2f42;
 }
+.bottom.bottom-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 264px;
+    gap: 16px;
+}
 .bottom-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -412,6 +423,14 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+.bottom-right {
+    display: flex; 
+    flex-direction: column;
+    max-width: 208px;
+    gap: 16px;
+}
+
 .bottom-soc-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -423,28 +442,14 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin-bottom: 16px;
 }
 .team-link-icon:hover {
     background-color: #31d0aa;
 }
-.bottom-container {
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    max-width: 1158px; 
-    margin: 0 auto;
 
-}
 .bottom-list-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
-}
-.bottom-left {
-    max-width: 50%;
-}
-.bottom-right {
-    text-align: right;
 }
